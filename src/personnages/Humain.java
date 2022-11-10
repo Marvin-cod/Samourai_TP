@@ -42,5 +42,12 @@ public class Humain {
 		Parler("MMMMmmmm un bon verre de "+this.boisson+" ! Gloups");
 	}
 	
+	public void GagnerArgent(int argent) {
+		this.argent+=argent;
+	}
+	
+	public void  PerdreArgent(int argent) {
+		this.argent-=argent;
+	}
 	
 }
